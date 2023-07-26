@@ -8,8 +8,7 @@ export default function App() {
 	return (
 		<Router>
 			<Routes>
-				<Route path='/' element={<Create />} />
-				<Route path='*' element={<h1>THere is no such page</h1>} />
+				<Route path='*' element={<Create />} />
 			</Routes>
 		</Router>
 	)
